@@ -160,7 +160,8 @@ fig.add_trace(
     go.Bar(
         x=df.index,
         y=df['Volume'],
-        marker_color='lightblue'
+        name="Volume",
+        marker_color='lightgreen'
     ),
     row=2, col=1
 )
@@ -286,3 +287,8 @@ with col2:
         label='Positive/Negative Days',
         value=f'{positive_days} / {negative_days}'
     )
+
+
+# Footer
+st.divider()
+st.caption("Built by Naumenko Analytics LLC | Data provided by Yahoo Finance via yfinance | For educational and analytical purposes only")
