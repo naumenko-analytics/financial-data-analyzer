@@ -21,8 +21,8 @@ live stock market data to generate automated analysis, visualizations, and insig
 - yfinance
 - scikit-learn
 
-## Project Status
-Currently in development
+## Live demo
+https://naumenko-analytics-stock-analyzer.streamlit.app/
 
 ## Author
 Maksym Naumenko   
